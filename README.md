@@ -267,30 +267,6 @@ http://127.0.0.1:5000
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Login Page
-* Registration Page
-* Dashboard
-* Search Results
-* MongoDB Atlas Collection
-
-Store them in:
-
-```text
-screenshots/
-```
-
-Example:
-
-```markdown
-![Dashboard](screenshots/dashboard.png)
-```
-
----
-
 ## 🧪 Testing
 
 The project includes test data scripts located in:
@@ -324,10 +300,13 @@ These scripts can be used to:
 
 **Alaeddine Boubaker**
 
-PhD Student – Big Data & NoSQL
+DBA Student – European School of Datascience and Technology
 
 GitHub:
 https://github.com/ala-boubaker
+
+Email:
+ala.boubaker@gmail.com
 
 ---
 
