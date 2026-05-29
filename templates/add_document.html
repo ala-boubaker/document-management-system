@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Add Document</h1>
+
+<form method="POST" class="form-box">
+    <input type="text" name="document_id" placeholder="Document ID" required>
+
+    <input type="text" name="title" placeholder="Title" required>
+
+    <textarea name="content" placeholder="Content" required></textarea>
+
+    <input type="text" name="category" placeholder="Category" required>
+
+    <p><strong>Author:</strong> {{ current_user.username }}</p>
+
+    <button type="submit">Save Document</button>
+</form>
+
+{% endblock %}

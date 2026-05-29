@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Edit Document</h1>
+
+<form method="POST" class="form-box">
+    <input type="text" name="document_id" value="{{ document.document_id }}" required>
+
+    <input type="text" name="title" value="{{ document.title }}" required>
+
+    <textarea name="content" required>{{ document.content }}</textarea>
+
+    <input type="text" name="category" value="{{ document.category }}" required>
+
+    <p><strong>Author:</strong> {{ document.author }}</p>
+
+    <button type="submit">Update Document</button>
+</form>
+
+{% endblock %}

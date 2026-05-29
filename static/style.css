@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #082b4f;
+    color: white;
+    position: fixed;
+    padding: 30px;
+}
+
+.sidebar h2 {
+    margin-bottom: 40px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.sidebar a:hover {
+    color: #66b2ff;
+}
+
+.main {
+    margin-left: 300px;
+    padding: 40px;
+}
+
+h1 {
+    color: #082b4f;
+}
+
+.alert {
+    background: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    float: right;
+    background: #1e6be3;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.sort-form,
+.search-form {
+    margin: 25px 0;
+}
+
+select,
+input,
+textarea {
+    width: 100%;
+    max-width: 700px;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+textarea {
+    height: 160px;
+}
+
+button {
+    background: #1e6be3;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1555b5;
+}
+
+.form-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 25px;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #e8eef7;
+}
+
+.delete {
+    color: red;
+}
